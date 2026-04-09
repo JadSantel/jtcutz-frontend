@@ -3,7 +3,7 @@ import { Calendar, Clock, MapPin, Phone, Mail, Instagram, Scissors, Star, CheckC
 import StyleSelector from './StyleSelector';
 
 // API Configuration
-const API_URL = 'http://192.168.1.2:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
 const BarberWebsite = () => {
   const [activeSection, setActiveSection] = useState('home');
