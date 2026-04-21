@@ -257,7 +257,7 @@ const StyleSelector = ({ onClose }) => {
     }}>
       <div style={{
         backgroundColor: '#0f0f0f',
-        border: '2px solid #d4af37',
+        border: '2px solid #eb5328',
         borderRadius: '8px',
         maxWidth: '700px',
         width: '100%',
@@ -274,7 +274,7 @@ const StyleSelector = ({ onClose }) => {
             right: '1rem',
             background: 'none',
             border: 'none',
-            color: '#d4af37',
+            color: '#eb5328',
             cursor: 'pointer',
             padding: '0.5rem',
             zIndex: 10
@@ -286,13 +286,13 @@ const StyleSelector = ({ onClose }) => {
         {/* Header */}
         <div style={{
           padding: '2rem',
-          borderBottom: '2px solid #d4af37',
+          borderBottom: '2px solid #eb5328',
           textAlign: 'center'
         }}>
-          <Sparkles size={48} style={{ color: '#d4af37', margin: '0 auto 1rem' }} />
+          <Sparkles size={48} style={{ color: '#eb5328', margin: '0 auto 1rem' }} />
           <h2 style={{
             fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
-            color: '#d4af37',
+            color: '#eb5328',
             marginBottom: '0.5rem',
             letterSpacing: '2px',
             textTransform: 'uppercase'
@@ -325,7 +325,7 @@ const StyleSelector = ({ onClose }) => {
                   style={{
                     flex: 1,
                     height: '4px',
-                    backgroundColor: index <= currentStep ? '#d4af37' : '#2a2a2a',
+                    backgroundColor: index <= currentStep ? '#eb5328' : '#2a2a2a',
                     marginRight: index < questions.length - 1 ? '0.5rem' : 0,
                     transition: 'background-color 0.3s ease'
                   }}
@@ -385,7 +385,7 @@ const StyleSelector = ({ onClose }) => {
                       textAlign: 'left'
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.borderColor = '#d4af37';
+                      e.currentTarget.style.borderColor = '#eb5328';
                       e.currentTarget.style.backgroundColor = '#242424';
                     }}
                     onMouseLeave={(e) => {
@@ -395,7 +395,7 @@ const StyleSelector = ({ onClose }) => {
                   >
                     <div style={{
                       fontSize: '1.3rem',
-                      color: '#d4af37',
+                      color: '#eb5328',
                       marginBottom: '0.5rem',
                       fontWeight: 'bold',
                       letterSpacing: '1px'
@@ -434,8 +434,8 @@ const StyleSelector = ({ onClose }) => {
                     justifyContent: 'center'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = '#d4af37';
-                    e.currentTarget.style.color = '#d4af37';
+                    e.currentTarget.style.borderColor = '#eb5328';
+                    e.currentTarget.style.color = '#eb5328';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.borderColor = '#2a2a2a';
@@ -455,7 +455,7 @@ const StyleSelector = ({ onClose }) => {
                   width: '80px',
                   height: '80px',
                   margin: '0 auto 1.5rem',
-                  backgroundColor: '#d4af37',
+                  backgroundColor: '#eb5328',
                   borderRadius: '50%',
                   display: 'flex',
                   alignItems: 'center',
@@ -466,7 +466,7 @@ const StyleSelector = ({ onClose }) => {
 
                 <h3 style={{
                   fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
-                  color: '#d4af37',
+                  color: '#eb5328',
                   marginBottom: '1rem',
                   letterSpacing: '2px',
                   textTransform: 'uppercase'
@@ -491,7 +491,7 @@ const StyleSelector = ({ onClose }) => {
                   backgroundImage: `url(${result.image})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  border: '2px solid #d4af37',
+                  border: '2px solid #eb5328',
                   borderRadius: '8px',
                   marginBottom: '1.5rem'
                 }} />
@@ -506,7 +506,7 @@ const StyleSelector = ({ onClose }) => {
                   textAlign: 'left'
                 }}>
                   <h4 style={{
-                    color: '#d4af37',
+                    color: '#eb5328',
                     fontSize: '1.2rem',
                     marginBottom: '0.75rem',
                     letterSpacing: '1px'
@@ -537,7 +537,7 @@ const StyleSelector = ({ onClose }) => {
                       }, 300);
                     }}
                     style={{
-                      backgroundColor: '#d4af37',
+                      backgroundColor: '#eb5328',
                       color: '#0a0a0a',
                       border: 'none',
                       padding: '1rem 2rem',
@@ -552,7 +552,7 @@ const StyleSelector = ({ onClose }) => {
                       e.currentTarget.style.backgroundColor = '#f5f5f5';
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = '#d4af37';
+                      e.currentTarget.style.backgroundColor = '#eb5328';
                     }}
                   >
                     Book This Style
@@ -571,8 +571,8 @@ const StyleSelector = ({ onClose }) => {
                       letterSpacing: '1px'
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.borderColor = '#d4af37';
-                      e.currentTarget.style.color = '#d4af37';
+                      e.currentTarget.style.borderColor = '#eb5328';
+                      e.currentTarget.style.color = '#eb5328';
                     }}
                     onMouseLeave={(e) => {
                       e.currentTarget.style.borderColor = '#2a2a2a';
